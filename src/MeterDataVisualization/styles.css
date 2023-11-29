@@ -1,0 +1,34 @@
+
+.header{
+    height: 9vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #31304D;
+    padding-inline: 10px;
+    color: #fff;
+}
+.view_btn{
+    display: flex;
+    justify-content: right;
+}
+.selected_data{
+    display: flex;
+    flex-direction: column;
+    margin-block: 5px;
+}
+
+.graph_container{
+    height: 100vh;
+    width: 100vw;
+    background-color: lightcyan;
+}
+.input_element{
+    margin-block: 15px;
+}
+.custom-tooltip{
+    border: 1px solid grey;
+    background-color: lightblue;
+    border-radius: 8px;
+    padding: 5px;
+}
